@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Header */
+header {
+    background-color: #333333;
+	height: auto;
+	width: 100vw;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+header p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #686161;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Body */
+
+body {
+    background-color: #fff;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section About Me */
+
+.about_me {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(229, 228, 223,.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 700px;
+    height: 100px;
+}
+
+.about_me h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-style: inherit;
+}
+
+.about_me p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Section Skills */
+
+.skills {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(229, 228, 223,.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-style: inherit;
+    padding-left: 5px;
+}
+
+.skills_div {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.skills_div li{
+    display: inline-block;
+    text-decoration: none !important;
+    border-radius: 2px;
+    background-color: #369b0e;
+    color: #fff;
+    margin: 10px 5px 10px 5px;
+    text-align: center !important;
+    padding: 5px 5px 5px 5px;
+}
+
+/* Section Work */
+
+.work{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(229, 228, 223,.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 700px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.work h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    font-style: inherit;
+    padding-bottom: 5px;
+}
+
+.work li {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.work h3{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* Section Education */
+
+.Education {
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+    box-shadow: 0 0 20px rgba(229, 228, 223,.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    width: 700px;
+    height: 100px;
+}
+
+.Education li{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
+.Education h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
